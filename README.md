@@ -31,9 +31,9 @@ You can either execute this script whenever you want to sync new changes, or, al
 ### Automation
 On Windows, `Task Scheduler` can be configured to automatically run this script periodically to keep you work backed up. The below images are an example configuration.  
 
-<img width="300" alt="general" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/bc255e85-0e82-4479-aeeb-b9c110981870">
-<img width="300" alt="triggers" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/0b54510d-fe48-44b3-a905-b5906f306765">
-<img width="300" alt="actions" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/75982e06-b7a7-4b3a-a5a7-1a013afd2f92">
-<img width="300" alt="settings" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/1f02e774-94b0-4ce0-9154-025b6bbc31f6">
+<img width="400" alt="general" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/bc255e85-0e82-4479-aeeb-b9c110981870">
+<img width="400" alt="triggers" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/0b54510d-fe48-44b3-a905-b5906f306765">
+<img width="400" alt="actions" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/75982e06-b7a7-4b3a-a5a7-1a013afd2f92">
+<img width="400" alt="settings" src="https://github.com/nwillems94/obsidian_tools/assets/42821240/1f02e774-94b0-4ce0-9154-025b6bbc31f6">
 
 Please submit a pull request if you can provide instructions on automating this on Linux or MacOS. 
