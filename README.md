@@ -7,8 +7,7 @@ Tool to:
 
 The tools are split between two files:
 - `convert_to_giltab.py`: a python script which converts math into GitHub/GitLab flavor markdown math notation and converts wikilinks into markdown links. When this code was first written, only GitLab supported [mermaid](https://mermaid.js.org/) diagrams, now GitHub does too. Feel free to use whichever service you want. 
-- `auto_convertcommit.bat`: a `batch` script which automatically commits file changes and creates a temporary directory for `convert_to_giltab.py` to process changes
-  - Welcome anyone who would like to create a `bash` version of this script. It should be much simpler than in `batch`.
+- `auto_convertcommit``.bat`/`.sh`: a `batch`/`bash` script which automatically commits file changes and creates a temporary directory for `convert_to_giltab.py` to process changes
 
 ## Software
 The tools depend on two pieces of software:
@@ -16,7 +15,7 @@ The tools depend on two pieces of software:
 - Python (os, re, sys modules)
 
 ## Configuration
-- Copy the files `convert_to_gitlab.py` and `auto_convertcommit.bat` into your Obsidian folder
+- Copy the files `convert_to_gitlab.py` and `auto_convertcommit.*` into your Obsidian folder
 - `convert_to_gitlab.py` assumes all attachments (e.g., images) are in a folder called `Attachments`. If your folder is named differently, edit line 11 in `convert_to_gitlab.py`.
 
 ### Git
