@@ -7,7 +7,7 @@ Tool to:
 
 The tools are split between two files:
 - `convert_to_giltab.py`: a python script which converts math into GitHub/GitLab flavor markdown math notation and converts wikilinks into markdown links. When this code was first written, only GitLab supported [mermaid](https://mermaid.js.org/) diagrams, now GitHub does too. Feel free to use whichever service you want. 
-- `auto_convertcommit``.bat`/`.sh`: a `batch`/`bash` script which automatically commits file changes and creates a temporary directory for `convert_to_giltab.py` to process changes
+- `auto_convertcommit` `.bat`/`.sh`: a `batch`/`bash` script which automatically commits file changes and creates a temporary directory for `convert_to_giltab.py` to process changes
 
 ## Software
 The tools depend on two pieces of software:
